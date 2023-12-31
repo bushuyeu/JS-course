@@ -3,7 +3,7 @@ age = 31; // mutating age var
 
 const birthYear = 1991;
 birthYear = 1990; // throws an error
-const = job; // is not legal
+// const = job; // is not legal
 
 // use const by default and let if you are really sure that the var should change in the future
 
