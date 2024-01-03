@@ -1,3 +1,4 @@
+// CHALLENGE #3
 // There are two gymnastics teams: Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins a trophy!
 
 // Your tasks:
@@ -15,3 +16,24 @@
 
 
 // TEST DATA: Dolphins scored 96, 108, and 89. Koalas scored 88, 91, and 110.
+
+
+let scoreDolphins = 0;
+let scoreKoalas = 0;
+
+scoreDolphins = (96 + 108 + 89) / 3;
+scoreKoalas = (88 + 91 + 110) / 3;
+
+if (scoreDolphins > scoreKoalas) {
+
+    console.log('Dolphins win the trophy');
+
+} else if (scoreDolphins < scoreKoalas) {
+
+    console.log('Koalas win the trophy');
+
+} else {
+
+    console.log('Both win the trophy');
+
+}
